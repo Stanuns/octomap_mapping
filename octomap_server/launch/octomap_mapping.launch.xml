@@ -11,7 +11,7 @@
 		<param name="resolution" value="0.15" />
 
 		<!-- fixed map frame (set to 'map' if SLAM or localization running!) -->
-		<param name="frame_id" value="lidar_odom" /> <!-- odom_combined -->
+		<param name="frame_id" value="camera_init" /> <!-- odom_combined -->
 
 		<!-- maximum range to integrate (speedup!) -->
 		<param name="sensor_model.max_range" value="40.0" />  <!-- 5.0 -->
